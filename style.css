@@ -53,6 +53,10 @@ header div li {
     font-size: 3em;
 }
 
+.para {
+    color: black;
+}
+
 .sec-1-container {
 
     display: flex;
@@ -214,6 +218,13 @@ header div li {
     .sec-1-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .btn-1,
+    .para,
+    .title {
+        text-align: center;
     }
 
 }
