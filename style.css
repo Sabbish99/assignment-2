@@ -209,7 +209,7 @@ header div li {
 @media only screen and (max-width:1000px) {
     body {
         margin: 2%;
-        background-color: rgb(225, 255, 245);
+        background-color: rgb(239, 255, 250);
     }
 
     header .menu-bar {
@@ -227,19 +227,18 @@ header div li {
 
     }
 
+    .sec-2-container,
     .greed {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-
-        margin: 30px;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 100px;
+        justify-items: center;
 
 
 
     }
 
-    hr {
-        width: 100%;
-    }
+
 
 
 
