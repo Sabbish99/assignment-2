@@ -202,3 +202,18 @@ header div li {
 
 
 /*------------- mobile view------------ */
+@media only screen and (max-width:688px) {
+    header .menu-bar {
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    .sec-1-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
