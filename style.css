@@ -222,10 +222,11 @@ header div li {
 
     }
 
-    .sec-2-container {
+    .greed {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
+        margin: 30px;
 
 
 
