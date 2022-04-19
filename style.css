@@ -219,12 +219,22 @@ header div li {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
+
     }
 
-    .btn-1,
-    .para,
-    .title {
-        text-align: center;
+    .btn-1 {
+        align-items: center;
+    }
+
+
+
+
+    .sec-2-container,
+    .container,
+    .flexible,
+    .sec-5 {
+        display: none;
+
     }
 
 }
