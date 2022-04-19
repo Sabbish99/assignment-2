@@ -23,6 +23,10 @@ header a {
     color: black;
 }
 
+.bar-icon {
+    display: none;
+}
+
 .menu-bar {
     display: flex;
     align-items: center;
@@ -218,9 +222,17 @@ header div li {
         display: none;
     }
 
-    header {
-        justify-content: center;
+    .bar-icon {
+        display: block;
+        list-style: none;
     }
+
+    .bar-icon,
+    header {
+        justify-content: space-between;
+        align-items: center;
+    }
+
 
 
 
