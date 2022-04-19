@@ -277,6 +277,8 @@ header div li {
         margin-right: 25px;
     }
 
+    /* end sec-3 */
+
     .flexible {
 
 
@@ -287,15 +289,9 @@ header div li {
 
     }
 
-
-
-
-
-
+    /* end sec-4 */
 
     .sec-5-container {
-        display: none;
-
+        font-size: 1em;
     }
-
 }
