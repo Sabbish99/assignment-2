@@ -212,7 +212,7 @@ header div li {
     }
 
     header {
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .sec-1-container {
@@ -232,6 +232,9 @@ header div li {
 
     }
 
+    hr {
+        width: 100%;
+    }
 
 
 
