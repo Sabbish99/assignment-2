@@ -206,7 +206,7 @@ header div li {
 
 
 /*------------- mobile view------------ */
-@media only screen and (max-width:688px) {
+@media only screen and (max-width:1000px) {
     header .menu-bar {
         display: none;
     }
@@ -222,14 +222,21 @@ header div li {
 
     }
 
-    .btn-1 {
-        align-items: center;
+    .sec-2-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+
+
+
     }
 
 
 
 
-    .sec-2-container,
+
+
+
     .container,
     .flexible,
     .sec-5 {
