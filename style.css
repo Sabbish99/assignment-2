@@ -229,10 +229,28 @@ header div li {
 
     .bar-icon,
     header {
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-around;
         align-items: center;
+        text-align: center;
     }
 
+    /* end menu bar and header */
+
+
+    .sec-1-container {
+        display: flex;
+    }
+
+    .sec-1-container {
+        display: grid;
+        text-align: center;
+
+
+    }
+
+    /* end section-1 */
 
 
 
@@ -244,8 +262,6 @@ header div li {
 
 
 
-
-    .sec-1-container,
     .sec-2-container,
     .sec-3-grid,
     .see-more,
