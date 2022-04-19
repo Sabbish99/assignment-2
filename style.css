@@ -207,6 +207,11 @@ header div li {
 
 /*------------- mobile view------------ */
 @media only screen and (max-width:1000px) {
+    body {
+        margin: 2%;
+        background-color: rgb(225, 255, 245);
+    }
+
     header .menu-bar {
         display: none;
     }
@@ -225,7 +230,7 @@ header div li {
     .greed {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        justify-items: center;
+
         margin: 30px;
 
 
